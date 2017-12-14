@@ -1,4 +1,4 @@
-##DOM Manipulation & Events
+## DOM Manipulation & Events
 
 ### What is the DOM?
 - Tree of nodes/elements created by the browser. like Body, H1 H2 or any HTML element tag.
@@ -9,12 +9,9 @@
 - Some of the properties or attributes of Document Object Model.
 
 ```js
-let val;
-// To get all the HTML document.
-val = document;
-// To get all the HTML array collection for the entire document.
-val = document.all;
-// To access a particular index within the array collection
+let val; // To get all the HTML document.
+val = document; // To get all the HTML array collection for the entire document.
+val = document.all; // To access a particular index within the array collection
 val = document.all[0] //<html></html>
 val = document.all[1] //<head></head>
 val = document.all[2] // <meta charset="UTF-8">
