@@ -63,16 +63,3 @@ scripts.forEach(function(script) {
 })
 
 ```
-
-### DOM Selectors For Single Elements
-- Some of the methods of Document Object Model.
-
-### DOM Selectors for Multiple Elements
-### Traversing The DOM
-### Creating Elements
-### Removing & Replacing Elements
-### Event Listeners & The Event Object
-### Mouse Events
-### Keyboard & Input Events
-### Event Bubbling & Delegation
-### Local & Session Storage
