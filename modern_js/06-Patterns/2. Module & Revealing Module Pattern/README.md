@@ -53,4 +53,11 @@ const ItemCtrl = (function() {
     get: get
   }
 })();
+
+ItemCtrl.add({id: 1, name: 'John'}); // Item Added...
+console.log(Item.get(1)); {id: 1, name: 'John'}
+
 ```
+- The main different between Standard Module Pattern and Revealing Module Pattern:
+1. We returning object literal that directly reveals methods that are inside the module.
+2. Revealing pattern looks cleaner, but module pattern allow you do more
