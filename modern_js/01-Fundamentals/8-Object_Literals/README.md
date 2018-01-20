@@ -24,6 +24,7 @@ val = person.age;
 
 console.log(val);
 
+// Loop through an array
 const people = [
   {name: 'John', age: 30},
   {name: 'Steve', age: 40}
