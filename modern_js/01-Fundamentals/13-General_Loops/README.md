@@ -5,9 +5,13 @@
 
 ### For Loop
 ```js
-// Syntax
+// Loop Structure
 for( declaration of variable ; condition; increment of variable)
-// must use either let or var...you can not use const
+{
+  // Do something
+  // must use either let or var...you can not use const
+}
+// Example
 for(let i = 0; i < 10; i++ ){
   if(i === 2){
     console.log('2 is my favorite number');
@@ -22,7 +26,12 @@ for(let i = 0; i < 10; i++ ){
 }
 ```
 ### While Loops
+- The While Loop loops through a block of code as long as a specified condition is true
 ```js
+// Structure
+while (condition){
+  code block to be executed
+}
 let i = 0;
 while(i < 10){
   console.log('Number ' + i);
@@ -31,6 +40,7 @@ while(i < 10){
 ```
 
 ### Do..While Loops
+- The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
 ```js
 let i = 0;
 
@@ -70,7 +80,7 @@ const users = [
 ]
 
 const ids = users.map(function(user){
-  return user.idl
+  return user.id;
 });
 
 console.log(ids); // [1,2,3,4]
