@@ -38,4 +38,14 @@ console.log(val);
 console.log(typeof val);
 console.log(val.length); // only work with strings
 console.log(val.toFixed()); // only works with number
+
+
+
+
+const val1 = String(5);
+const val2 = 6;
+const sum = val1 + val2;
+
+console.log(sum); // 56
+console.log(typeof sum); // string
 ```
