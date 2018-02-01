@@ -4,6 +4,7 @@
 - The general ways to write loops are:
 
 ### For Loop
+- Recommendation: use For Loop when you know the number of iteration required to finish the job
 ```js
 // Loop Structure
 for( declaration of variable ; condition; increment of variable)
